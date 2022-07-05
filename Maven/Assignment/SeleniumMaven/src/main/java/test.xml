@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+
+    <test name="VerificationTest">
+        <parameter name="sExpectedUrl" value="https://www.amazon.com/"/>
+        <parameter name="sSearchText" value="Laptop"/>
+        <classes>
+            <class name="Searching" />
+        </classes>
+    </test>
+
+
+
+     <test name="SelectingItemTest">
+         <parameter name="sUserName" value="https://www.amazon.com/"/>
+         <parameter name="sEmail" value="Laptop"/>
+         <parameter name="sPassword" value="Laptop"/>
+
+         <classes>
+             <class name="Selecting"></class>
+         </classes>
+     </test>
+
+
+
+</suite>
+

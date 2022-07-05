@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+     <test name="FirstPageTest">
+         <parameter name="sUrl" value="https://www.amazon.com/"/>
+         <parameter name="sKeyword" value="Laptop"/>
+         <parameter name="sUserName" value="nipun"/>
+         <parameter name="sEmail" value="nipun@gmail.com"/>
+         <parameter name="sPassword" value="nipun123"/>
+
+         <classes>
+             <class name="Driver"/>
+             <class name="SearchItem"/>
+             <class name="AddingCart"/>
+             <class name="CartConfirmation"/>
+             <class name="ShoppingCart"/>
+             <class name="SignIn"/>
+             <class name="CreateAccount"/>
+         </classes>
+     </test>
+</suite>
+

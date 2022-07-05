@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e67f4564-7d09-47ff-8106-4bfbc904e352" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AddingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CartConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CreateAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SearchItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SignIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/src/main/java/Searching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/src/main/java/Selecting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/src/main/java/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/target/SeleniumMaven-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/target/classes/Searching.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SeleniumMaven/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/src/main/java/Class1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/src/main/java/Class2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/src/main/java/DriverClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/src/main/java/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/target/classes/Class1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/target/classes/Class2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tESTI/target/classes/DriverClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/src/main/java/TestNG/Practical1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/src/main/java/TestNG/Practical10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/src/main/java/TestNG/Practical11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/src/main/java/TestNG/Practical12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/src/main/java/TestNG/Practical5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/src/main/java/TestNG/Practical6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/src/main/java/TestNG/Practical7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/src/main/java/TestNG/Practical8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/src/main/java/TestNG/Practical9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/src/main/java/TestNG/SomeClassToTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/src/main/java/TestNG/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SeleniumMavenProject1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SeleniumMavenProject1/target/classes/Practical3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SeleniumMavenProject1/target/classes/Practical3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SeleniumMaven/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SeleniumMaven/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SeleniumMaven/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SeleniumMaven/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SeleniumMaven/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SeleniumMaven/resources/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SeleniumMaven/target/SeleniumMaven-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SeleniumMaven/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SeleniumMaven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SeleniumMaven/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BW1wBdsGvZDNw3HUZM4rBwv5fl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Development/Selenium-Automation-Testing/Maven/Assignment/AS2018913/SeleniumMaven/src/main/java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\Selenium-Automation-Testing\Maven\Assignment\AS2018913\SeleniumMaven\src\main\java" />
+      <recent name="C:\Development\Selenium-Automation-Testing\Maven\Assignment\AS2018913\SeleniumMaven" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Testing">
+    <configuration name="C:/Development/Selenium-Automation-Testing/Maven/Assignment/AS2018913/SeleniumMaven/src/main/java/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMaven" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Drivers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Drivers" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testing" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing.getName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testing" />
+      <option name="METHOD_NAME" value="getName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing.instantiateDriver" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testing" />
+      <option name="METHOD_NAME" value="instantiateDriver" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Testing" />
+        <item itemvalue="TestNG.Testing.instantiateDriver" />
+        <item itemvalue="TestNG.C:/Development/Selenium-Automation-Testing/Maven/Assignment/AS2018913/SeleniumMaven/src/main/java/test.xml" />
+        <item itemvalue="TestNG.Testing.getName" />
+        <item itemvalue="TestNG.Drivers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e67f4564-7d09-47ff-8106-4bfbc904e352" name="Changes" comment="" />
+      <created>1657007265082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657007265082</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SearchItem.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AddingCart.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SearchItem.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SearchItem.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SearchItem.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ShoppingCart.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CartConfirmation.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CartConfirmation.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SignIn.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/CartConfirmation.java</url>
+          <line>20</line>
+          <properties class="CartConfirmation" method="printPrice">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

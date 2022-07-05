@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+
+     <test name="SelectingItemTest">
+
+
+
+         <classes>
+             <class name="DriverClass"></class>
+             <class name="Class1"></class>
+
+         </classes>
+     </test>
+
+
+
+</suite>
+
