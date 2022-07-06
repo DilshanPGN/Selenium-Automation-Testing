@@ -1,6 +1,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Suite">
      <test name="FirstPageTest">
+
+         <!-- Index - AS2018913 - P.G.N. Dilshan-->
+
+         <!--
+            README - add debugs for click() events and run in DebugMode, Otherwise it leads to
+            (org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status)
+            Exeption
+         -->
+
          <parameter name="sUrl" value="https://www.amazon.com/"/>
          <parameter name="sKeyword" value="Laptop"/>
          <parameter name="sUserName" value="nipun"/>

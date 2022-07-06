@@ -23,23 +23,19 @@ public class ShoppingCart {
     public void nameAndPriceVerification(){
         //14. Verify selected details in Shopping Cart page [Name, Price]
         String newItemName = driver.findElement(By.xpath("//span[@class='a-truncate-full a-offscreen']")).getAttribute("innerHTML");
-
         String newItemPrice = driver.findElement(By.xpath("//div[@class='a-column a-span2 a-text-right sc-item-right-col a-span-last']/p/span")).getText();
-        System.out.println("New Item Name = " + newItemName);
-        System.out.println("New Item price = " + newItemPrice);
 
+        boolean isVerified;
         //assertion
-        if ((AddingCart.itemName.equals(newItemName))){
-            System.out.println("Item Name Matching");
+        if ((AddingCart.itemName.equals(newItemName)) && ((AddingCart.itemPrice).equals(newItemPrice))){
+            isVerified = true;
         }else{
-            System.out.println("Item name Not matching");
+            isVerified = false;
         }
 
-        if (((AddingCart.itemPrice).equals(newItemPrice))){
-            System.out.println("Price Name Matching");
-        }else{
-            System.out.println("Price name Not matching");
-        }
+
+        Assert.assertTrue(isVerified , "Name and price is not matching !");
+
     }
 
     @Test(priority = 1)
@@ -66,9 +62,6 @@ public class ShoppingCart {
         String shoppingCartSubtotal = driver.findElement(By.xpath("//span[@id='sc-subtotal-amount-activecart']/span")).getText();
         String checkoutSubtotal = driver.findElement(By.xpath("//span[@id='sc-subtotal-amount-buybox']/span")).getText();
 
-        System.out.println("shoppingCartSubtotal = " + shoppingCartSubtotal);
-        System.out.println("checkoutSubtotal = " + checkoutSubtotal);
-
         //Assert the Shopping Cart Subtotal (should be equal) with Proceed to checkout Subtotal
         Assert.assertEquals(shoppingCartSubtotal,checkoutSubtotal,"Subtotals does not equal");
     }
@@ -77,8 +70,6 @@ public class ShoppingCart {
     public void checkout(){
         //17. Click on ‘Proceed to Checkout’ button
         WebElement btn = driver.findElement(By.xpath("//input[@data-feature-id=\"proceed-to-checkout-action\"]"));
-        //id = proceedToRetailCheckout
-
         btn.click();
     }
 
@@ -89,7 +80,6 @@ public class ShoppingCart {
         Set<String> windowHandles = driver.getWindowHandles();
         Iterator<String> iterator = windowHandles.iterator();
         String childWindow = iterator.next();
-        System.out.println(windowHandles);
         driver.switchTo().window(childWindow);
 
     }

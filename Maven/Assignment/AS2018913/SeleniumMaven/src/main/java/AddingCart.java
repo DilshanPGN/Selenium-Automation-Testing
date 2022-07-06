@@ -22,10 +22,10 @@ public class AddingCart {
     public void printDetails(){
         itemName = driver.findElement(By.id("productTitle")).getText();
 
-        //Print the Item Title (Name) in console
-        System.out.println("Title of the web page = " + itemName );
+        //9. Print the Item Title (Name) in console
+        System.out.println("Item Name = " + itemName );
 
-        //Get the Title Length and print in console
+       // 10. Get the Title Length and print in console
         System.out.println("Length of the title = " + itemName.length());
 
         //get the price
@@ -36,7 +36,7 @@ public class AddingCart {
 
     @Test(priority = 1)
     public void addToCart(){
-        //select add to cart
+        //11. Select “Add To Cart”
         driver.findElement(By.id("add-to-cart-button")).click();
 
     }
@@ -47,7 +47,6 @@ public class AddingCart {
         Set<String> windowHandles = driver.getWindowHandles();
         Iterator<String> iterator = windowHandles.iterator();
         String childWindow = iterator.next();
-        System.out.println(windowHandles);
         driver.switchTo().window(childWindow);
 
     }

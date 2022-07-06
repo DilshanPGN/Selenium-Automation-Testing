@@ -17,7 +17,7 @@ public class SignIn {
     }
 
     @Test
-    // Click on ‘Create your Amazon Account’ button
+    //18. Click on ‘Create your Amazon Account’ button
     public void createAmazonAccount(){
         driver.findElement(By.id("createAccountSubmit")).click();
     }
@@ -29,7 +29,6 @@ public class SignIn {
         Set<String> windowHandles = driver.getWindowHandles();
         Iterator<String> iterator = windowHandles.iterator();
         String childWindow = iterator.next();
-        System.out.println(windowHandles);
         driver.switchTo().window(childWindow);
 
     }

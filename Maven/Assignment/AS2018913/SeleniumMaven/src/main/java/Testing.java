@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 import java.util.Iterator;
@@ -50,6 +51,7 @@ public class Testing {
 
 
 
+    @AfterClass
     public void windowFocus(){
 
         Set<String> windowHandles = driver.getWindowHandles();
@@ -57,6 +59,10 @@ public class Testing {
         String childWindow = iterator.next();
         System.out.println(windowHandles);
         driver.switchTo().window(childWindow);
+        driver.close();
+        driver.quit();
+
+
 
     }
 }

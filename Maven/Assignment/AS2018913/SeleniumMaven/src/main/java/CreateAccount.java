@@ -21,19 +21,19 @@ public class CreateAccount {
     @Parameters({"sUserName","sEmail","sPassword"})
     public void fillDetails(String userName, String email, String password){
 
+        //19. Type sample username, email, password and re-enter password
         driver.findElement(By.id("ap_customer_name")).sendKeys(userName);
         driver.findElement(By.id("ap_email")).sendKeys(email);
         driver.findElement(By.id("ap_password")).sendKeys(password);
         driver.findElement(By.id("ap_password_check")).sendKeys(password);
 
-
     }
 
 
     @AfterClass
-
     public void windowFocus(){
         //20. Close the Browser
         driver.close();
+        driver.quit();
     }
 }

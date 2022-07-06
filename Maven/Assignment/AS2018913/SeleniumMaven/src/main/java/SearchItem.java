@@ -58,35 +58,29 @@ public class SearchItem {
     }
 
     @Test(priority = 3)
-    public void sortAndSelectFirstItem(){
+    public void sortItem(){
 
         //7. In the Featured Brands Category select first brand [checkbox]
         driver.findElement(By.xpath("//li[@id='p_89/HP']/span/a/span")).click();
 
+    }
+
+    @Test(priority = 4)
+    public void selectFirstResult(){
+
+        //8. Select the first search item
+        Driver.driver.findElement(By.xpath("//*[@cel_widget_id='MAIN-SEARCH_RESULTS-1']//div[@class ='sg-col sg-col-4-of-12 sg-col-8-of-16 sg-col-12-of-20 s-list-col-right']//span[@class='a-size-medium a-color-base a-text-normal']")).click();
 
 
-        try {
-
-
-
-            System.out.println(Driver.driver.findElement(By.xpath("//*[@cel_widget_id='MAIN-SEARCH_RESULTS-1']//div[@class ='sg-col sg-col-4-of-12 sg-col-8-of-16 sg-col-12-of-20 s-list-col-right']//span[@class='a-size-medium a-color-base a-text-normal']")).getText());
-            Driver.driver.findElement(By.xpath("//*[@cel_widget_id='MAIN-SEARCH_RESULTS-1']//div[@class ='sg-col sg-col-4-of-12 sg-col-8-of-16 sg-col-12-of-20 s-list-col-right']//span[@class='a-size-medium a-color-base a-text-normal']")).click();
-
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-        }
-        ////div[@data-cel-widget='MAIN-SEARCH_RESULTS-1']/div/div/div/div[2]/div/div/div[1]/h2/a/span
-        ////*[@cel_widget_id='MAIN-SEARCH_RESULTS-1']//div[@class ='sg-col sg-col-4-of-12 sg-col-8-of-16 sg-col-12-of-20 s-list-col-right']//span
 
     }
 
     @AfterClass
-    public void closePage(){
-        //driver.close();
+    public void windowFocus(){
+
         Set<String> windowHandles = driver.getWindowHandles();
         Iterator<String> iterator = windowHandles.iterator();
         String childWindow = iterator.next();
-        System.out.println(windowHandles);
         driver.switchTo().window(childWindow);
     }
 

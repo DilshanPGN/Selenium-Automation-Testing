@@ -28,43 +28,26 @@ public class CartConfirmation {
     public void goToCart(){
         //13. Click on Cart
 
+        /*
+        This page is changing according to product type.
+         */
+
+        windowFocus();
         if (!driver.findElements(By.xpath("//input[@class='a-button-input'][@aria-labelledby='attach-sidesheet-view-cart-button-announce']")).isEmpty()){
             driver.findElement(By.xpath("//input[@class='a-button-input'][@aria-labelledby='attach-sidesheet-view-cart-button-announce']")).click();
         }else if (!driver.findElements(By.xpath("//span[@id='sw-gtc']/span/a")).isEmpty()){
             driver.findElement(By.xpath("//span[@id='sw-gtc']/span/a")).click();
         }else{
-            System.out.println("Cart noot found");
+            System.out.println("Cart not found");
         }
-
-
-
-
-
     }
-
 
     @AfterClass
     public void windowFocus(){
-
         Set<String> windowHandles = driver.getWindowHandles();
         Iterator<String> iterator = windowHandles.iterator();
         String childWindow = iterator.next();
-        System.out.println(windowHandles);
-        driver.switchTo().window(childWindow);
-
-    }
-
-
-
-    public void refreshPage(){
-        Set<String> windowHandles = driver.getWindowHandles();
-        Iterator<String> iterator = windowHandles.iterator();
-        String childWindow = iterator.next();
-        System.out.println(windowHandles);
         driver.switchTo().window(childWindow);
     }
-
-
-
 
 }
